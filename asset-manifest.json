@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/radical-company-test/static/js/main.7e67f1c5.chunk.js",
+    "main.js.map": "/radical-company-test/static/js/main.7e67f1c5.chunk.js.map",
+    "runtime-main.js": "/radical-company-test/static/js/runtime-main.1aad0aa4.js",
+    "runtime-main.js.map": "/radical-company-test/static/js/runtime-main.1aad0aa4.js.map",
+    "static/js/2.17c8a982.chunk.js": "/radical-company-test/static/js/2.17c8a982.chunk.js",
+    "static/js/2.17c8a982.chunk.js.map": "/radical-company-test/static/js/2.17c8a982.chunk.js.map",
+    "index.html": "/radical-company-test/index.html",
+    "static/js/2.17c8a982.chunk.js.LICENSE.txt": "/radical-company-test/static/js/2.17c8a982.chunk.js.LICENSE.txt",
+    "static/media/Calibre-Medium.284460ee.otf": "/radical-company-test/static/media/Calibre-Medium.284460ee.otf",
+    "static/media/Calibre-Regular.84b1f95c.otf": "/radical-company-test/static/media/Calibre-Regular.84b1f95c.otf",
+    "static/media/FuturaBookBT.c0fee61c.ttf": "/radical-company-test/static/media/FuturaBookBT.c0fee61c.ttf",
+    "static/media/brand.2bd12a95.svg": "/radical-company-test/static/media/brand.2bd12a95.svg",
+    "static/media/custom.6cacc113.svg": "/radical-company-test/static/media/custom.6cacc113.svg",
+    "static/media/efficiency.37fc285d.svg": "/radical-company-test/static/media/efficiency.37fc285d.svg",
+    "static/media/innovetion.7a725860.svg": "/radical-company-test/static/media/innovetion.7a725860.svg",
+    "static/media/select arrow.86109fca.svg": "/radical-company-test/static/media/select arrow.86109fca.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1aad0aa4.js",
+    "static/js/2.17c8a982.chunk.js",
+    "static/js/main.7e67f1c5.chunk.js"
+  ]
+}

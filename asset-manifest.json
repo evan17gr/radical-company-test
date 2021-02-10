@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/radical-company-test/static/js/main.f4a42d32.chunk.js",
-    "main.js.map": "/radical-company-test/static/js/main.f4a42d32.chunk.js.map",
+    "main.js": "/radical-company-test/static/js/main.439bf7d7.chunk.js",
+    "main.js.map": "/radical-company-test/static/js/main.439bf7d7.chunk.js.map",
     "runtime-main.js": "/radical-company-test/static/js/runtime-main.1aad0aa4.js",
     "runtime-main.js.map": "/radical-company-test/static/js/runtime-main.1aad0aa4.js.map",
     "static/js/2.17c8a982.chunk.js": "/radical-company-test/static/js/2.17c8a982.chunk.js",
@@ -20,6 +20,6 @@
   "entrypoints": [
     "static/js/runtime-main.1aad0aa4.js",
     "static/js/2.17c8a982.chunk.js",
-    "static/js/main.f4a42d32.chunk.js"
+    "static/js/main.439bf7d7.chunk.js"
   ]
 }

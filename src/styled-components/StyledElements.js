@@ -80,6 +80,12 @@ export const InputsForm = styled.div`
 
 export const SelectButtonDiv = styled.div`
 
+    img{
+        cursor:pointer;
+        position:absolute;
+        bottom:55%;;
+        right:0;
+    }
 `;
 
 export const LeftDiv = styled.div`
@@ -97,13 +103,16 @@ export const RightDiv = styled.div`
     z-index: 1;
     max-width: 150px;
     width: 100%;
+`;
 
-    p{
-        border-bottom:2px solid #edf2f0;
-        margin-bottom:4px;
-        cursor:pointer;
-        text-align:center;
-    }
+export const RightDivParagraph = styled.p`
+    border-bottom:2px solid #edf2f0;
+    margin-bottom:5px;
+    cursor:pointer;
+    text-align:center;
+    font-size:16px;
+    font-family:"Calibre-Regular";
+    color: ${ props => props.active ? "#2afbca" : "" };
 `;
 
 export const BottomDiv = styled.div`
@@ -144,6 +153,11 @@ export const TopSection = styled.section`
 export const SelectDiv = styled.div`
     display:flex;
     width:100%;
+
+    p{
+        font-family: 'Calibre-Regular';
+        font-size:35px;
+    }
 `;
 
 

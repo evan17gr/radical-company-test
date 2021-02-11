@@ -69,7 +69,7 @@ const BottomSection = () => {
                             </section>
                         </BulletPointsSection>
                         <DownloadSection>
-                            <i class="fas fa-sign-in-alt"></i>
+                            <i className="fas fa-sign-in-alt"></i>
                             <p>.PDF</p>
                             <p>.PNG</p>
                         </DownloadSection>

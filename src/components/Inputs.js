@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { RightDiv, ArrowDiv,  BottomDiv, SelectButtonDiv, LeftDiv, InputsForm, InputsSection, SideDiv, SelectDiv, TopSection, WholeSection } from '../styled-components/StyledElements';
+import { RightDiv, ArrowDiv,  BottomDiv, SelectButtonDiv, LeftDiv, InputsForm, InputsSection, SideDiv, SelectDiv, TopSection, WholeSection, RightDivParagraph } from '../styled-components/StyledElements';
 import Arrow from "../Icons/select arrow.svg";
 
 const Inputs = () =>
@@ -15,7 +15,7 @@ const Inputs = () =>
 
     const getActiveIndex = (e) =>
     {
-        console.log( e.target.value );
+        setActiveIndex( e.target.innerText );
     }
 
     return (
@@ -63,10 +63,10 @@ const Inputs = () =>
                         </LeftDiv>
                         {showOptions &&
                             <RightDiv>
-                                <p onClick={getActiveIndex}>NA</p>
-                                <p>LATAM</p>
-                                <p>EMEA</p>
-                                <p>ASIA PAC</p>
+                                <RightDivParagraph onClick={getActiveIndex}>NA</RightDivParagraph>
+                                <RightDivParagraph onClick={getActiveIndex} active>LATAM</RightDivParagraph>
+                                <RightDivParagraph onClick={getActiveIndex}>EMEA</RightDivParagraph>
+                                <RightDivParagraph onClick={getActiveIndex}>ASIA PAC</RightDivParagraph>
                         </RightDiv>
                         }
                     </BottomDiv>
